@@ -2507,15 +2507,6 @@ section#about-us.aboutus {
   font-style: italic;
 }
 
-/*.quote-counter p:before {*/
-/*    content: "\f10d";*/
-/*    font-family: fontawesome;*/
-/*    position: absolute;*/
-/*    left: 17%;*/
-/*    top: 65px;*/
-/*    font-size: 40px*/
-/*}*/
-
 .quote-titles button.btn {
   margin: 0;
 }
@@ -6472,4 +6463,21 @@ textarea#content {
   border-width: 5px;
   border-style: solid;
   border-color: rgb(255 255 255) transparent transparent transparent;
+}
+@media (max-width: 639px) {
+  .home-3 #wd-banner {
+    height: 80vw;
+  }
+  .the-couple .about-couple,
+  .the-couple.bride .about-couple-1 {
+    height: fit-content !important;
+    position: relative !important;
+  }
+  .the-couple.uncle .about-couple,
+  .the-couple.bride .about-couple {
+    justify-content: center !important;
+  }
+  div#clock .box:last-child {
+    display: none !important;
+  }
 }
